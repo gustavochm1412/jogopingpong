@@ -1,4 +1,4 @@
-// Variáveis da bolinha
+
 let xBolinha = 300;
 let yBolinha = 200;
 let diametro = 15;
@@ -6,18 +6,18 @@ let raio = diametro / 2;
 let vxBolinha = 6;
 let vyBolinha = 6;
 
-// Variáveis da raquete
+
 let xRaquete = 5;
 let yRaquete = 150;
 let raqueteComprimento = 10;
 let raqueteAltura = 90;
 
-// Variáveis do oponente
+
 let xRaqueteOponente = 585;
 let yRaqueteOponente = 150;
 let velocidadeYOponente;
 
-// Placar do jogo
+
 let meusPontos = 0;
 let pontosOponente = 0;
 let pontosParaVencer = 5;
@@ -84,14 +84,14 @@ function movimentaRaqueteOponente() {
 }
 
 function verificaColisaoRaquete() {
-    // Colisão com raquete do jogador
+
     if (xBolinha - raio < xRaquete + raqueteComprimento && 
         yBolinha - raio < yRaquete + raqueteAltura && 
         yBolinha + raio > yRaquete) {
         vxBolinha *= -1;
     }
     
-    // Colisão com raquete do oponente
+
     if (xBolinha + raio > xRaqueteOponente && 
         yBolinha - raio < yRaqueteOponente + raqueteAltura && 
         yBolinha + raio > yRaqueteOponente) {
