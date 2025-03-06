@@ -30,8 +30,5 @@ Um clássico jogo de Ping Pong desenvolvido com JavaScript e p5.js.
 
 ## 👨‍💻 Autor
 
-- Gustavo Chagas
+- Gustavo Mesquita
 
-## 📝 Licença
-
-Este projeto está sob a licença MIT. 
